@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Farmers Portal - Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+    <script defer src="signup.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Indian Farmers Portal Logo">
+        </div>
+    </header>
+
+    <main>
+        <section id="signup" class="container" style="width: 500px;height: 420px;">
+            <div class="signup-container">
+                <h2>Sign Up</h2>
+                <form id="signup-form" onsubmit="signup(event)">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="mobile">Mobile Number:</label>
+                    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required>
+
+                    <label for="region">Region:</label>
+                    <input type="text" id="region" name="region" required>
+
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <button type="submit" id="signup-button">Sign Up</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Indian Farmers Portal</p>
+        </div>
+    </footer>
+</body>
+</html>
