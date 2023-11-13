@@ -1,0 +1,263 @@
+  /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    background-color: #45a049;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-image: url('image4.jpg');
+    background-size: cover;
+    color: white;
+    padding: 55px;
+    background-attachment: scroll;
+    background-position: center;
+    backface-visibility: visible;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+    background-color: beige;
+}
+
+section {
+    
+    padding: 40px;
+}
+
+h2 {
+    color: #191e18;
+    margin-bottom: 2px;
+}
+
+h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Additional Styles for Better Visuals */
+.hero {
+    text-align: center;
+}
+
+.news-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.news-container article {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-container img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.tips-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tip {
+    flex: 1;
+}
+
+.tip h3 {
+    color: #000000;
+}
+
+.market-container img {
+    width: 100%;
+    border-radius: 8px;
+    margin-right: 20px;
+    max-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.additional-info {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#signup-page {
+    text-align: center;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#signup-form label,
+#signup-form input {
+    margin-bottom: 15px;
+}
+
+#signup-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#signup-form button:hover {
+    background-color: #45a049;
+}
+
+.language-selection {
+    margin-top: 20px;
+}
+
+/* Additional Styles for Language Selection Dropdown */
+.language-selection select {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* Additional Styles for Search Section */
+#search-section {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box input,
+.search-box button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#featured-content {
+    margin-top: 51px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#featured-content {
+    margin-top: 20px;
+}
+
+#search-bar {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    padding: 5px;
+}
+
+#scheme-categories {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 8px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
