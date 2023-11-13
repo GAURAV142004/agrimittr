@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Government Schemes - Indian Farmers Portal</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="schemes.css">
     <script defer src="main.js"></script>
 </head>
 <body>
@@ -22,15 +22,25 @@
     </header>
 
     <main>
-        <section id="featured-content" class="container">
-            <h2>Government Schemes</h2>
-            <ul id="government-schemes-list">
-                <!-- Government schemes will be dynamically added here -->
-                <li>Scheme 1</li>
-                <li>Scheme 2</li>
-                <li>Scheme 3</li>
-            </ul>
-        </section>
+        <!-- Inside your <main> section -->
+<main>
+    <section id="featured-content" class="container">
+        <h2>Government Schemes in Maharashtra</h2>
+        <div id="search-bar">
+            <input type="text" id="search-input" placeholder="Search for schemes...">
+            <button onclick="searchSchemes()">Search</button>
+        </div>
+        <div id="scheme-categories">
+            <button onclick="filterSchemes('subsidies')">Subsidies</button>
+            <button onclick="filterSchemes('irrigation')">Irrigation</button>
+            <!-- Add more categories as needed -->
+        </div>
+        <ul id="government-schemes-list">
+            <!-- Government schemes will be dynamically added here -->
+        </ul>
+    </section>
+</main>
+
     </main>
 
     <footer>
@@ -38,5 +48,6 @@
             <p>&copy; 2023 Indian Farmers Portal</p>
         </div>
     </footer>
+    <script defer src="schemes.js"></script>
 </body>
 </html>
