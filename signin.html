@@ -22,10 +22,26 @@
         <button type="submit" style="width: 100px;">Sign In</button>
     </form>
     <div class="create-account">
-        <p>Don't have an account? <a href="signup.html">Create New Account</a></p>
+        <p>Don't have an account? <a href="javascript:void(0);" onclick="goToSignUpPage()">Create New Account</a></p>
     </div>
 </section>
 
 <script src="signin.js"></script>
+<script>
+    function signIn(event) {
+        // Your sign-in logic goes here
+
+        // Prevent the form from submitting (for demonstration purposes)
+        event.preventDefault();
+
+        // Redirect to another page after successful sign-in
+        window.location.href = "index.html";
+    }
+
+    function goToSignUpPage() {
+        // Redirect to the signup page
+        window.location.href = "signup.html";
+    }
+</script>
 </body>
 </html>
