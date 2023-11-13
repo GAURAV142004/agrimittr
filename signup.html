@@ -10,36 +10,34 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <img src="logo.png" alt="Indian Farmers Portal Logo">
-        </div>
+        <h1>Indian Farmer Portal</h1>
     </header>
 
     <main>
         <section id="signup" class="container" style="width: 500px;height: 570px;">
            
                 <h2>Sign Up</h2>
-                <form id="signup-form" onsubmit="signup(event)">
+                <form id="signup-form">
                     <div class="name">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required style="width: 300px;">
+                    <input type="text" id="name" name="name" required style="width: 300px;" placeholder="Enter Your name"/>
                     </div>
-                    <div class="Mobile">
-                    <label for="mobile">Mobile No.:</label>
-                    <input type="tel" id="mobile" name="mobile" pattern="[0-9]{10}" required style="width: 300px;">
+                    <div class="email">
+                    <label for="email">E-mail ID:</label>
+                    <input type="email" id="email" name="email" required style="width: 300px;" placeholder="Enter Email" />
                     </div>
                     <div class="region">
                     <label for="region">Region:</label>
-                    <input type="text" id="region" name="region" required style="width: 300px;">
+                    <input type="text" id="region" name="region" required style="width: 300px;" placeholder="Enter your state"/>
                     </div>
                     <div class="pass">
                     <label for="password">Password:</label>
-                    <input type="password" id="password" name="password" required style="width: 300px;">
+                    <input type="password" id="password" name="password" required style="width: 300px;" placeholder="Create Your Password"/>
                     </div>
-                    <button id="signup-button" onclick="signup()" style="width: 100px;">Sign Up</button>
+                    <button id="signup-button" onclick="signUp()" style="width: 100px;">Sign Up</button>
                 </form>
                 
-                <p>Already have an account? <a href="signin.html">Sign In</a></p>
+                <p>Already have an account? <a>Sign In</a></p>
           
         </section>
     </main>
